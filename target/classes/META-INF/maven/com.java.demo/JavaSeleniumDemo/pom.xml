@@ -24,11 +24,12 @@
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/com.applitools/eyes-selenium-java5 -->
-<dependency>
+ <dependency>
     <groupId>com.applitools</groupId>
     <artifactId>eyes-selenium-java5</artifactId>
-    <version>5.0.2</version>
-</dependency>
+    <version>5.22.0</version>
+    <scope>test</scope>
+        </dependency>
 
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
@@ -39,7 +40,7 @@
   <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>5.9.0</version>
+            <version>5.10.1</version>
             <scope>test</scope>
         </dependency>
 
