@@ -38,6 +38,12 @@ public void beforeEach (TestInfo testInfo)
 }
 
 
+@Test
+public void applitoolsHelloWorld() {
+    driver.get("https://applitools.com/helloworld/");
+    eyes.check(Target.window());
+}
+
 
 @Test
 public void exampleTestCase(){
